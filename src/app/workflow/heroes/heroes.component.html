@@ -1,0 +1,10 @@
+<div class="input-search">
+  <input class="input-text" type="text" [(ngModel)]="nameHeroe" placeholder="Buscar heroe">
+  <button mat-raised-button color="primary" (click)="searchHeroe()">Buscar</button>
+</div>
+
+<div class="column">
+  <div class="column-cards" *ngFor="let heroe of allHeroes | async">
+    <app-heroe [heroe]="heroe"></app-heroe>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+.sidenav-container {
+  height: 100%;
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

@@ -1,0 +1,11 @@
+<mat-card>
+  <img mat-card-image src="{{heroe.thumbnail.path}}.{{heroe.thumbnail.extension}}" alt="{{heroe.name}}">
+
+  <mat-card-title>
+    {{heroe.name}}
+  </mat-card-title>
+  <mat-card-subtitle>
+    {{heroe.description}} <br>
+    {{heroe.modified | date: 'dd/MM/yyyy' }}
+  </mat-card-subtitle>
+</mat-card>
